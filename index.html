@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Company Catalogue</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="app.css">
+
+  <script src="build.js" defer></script>
+</head>
+<body>
+
+
+<div class="container-fluid padding-top" id="catalogue-page">
+  <div class="row">
+    <div class="col-md-2">
+      <button type="button" class="btn btn-success" data-component="authbutton">
+        
+      </button>
+      
+      <button type="button" class="btn-add btn btn-warning" data-component="addcompanybutton">
+        Добавить компанию
+      </button>
+
+    </div>
+    <div class="col-md-10">
+      <!--Body content-->
+
+      <div data-component="companyCatalogue">
+      </div>
+
+      <div data-component="companyEditViewer">
+        
+      </div>
+      <div data-component="companyAddViewer">
+        
+      </div>
+      <form class="auth-form" data-component="authViewer">
+        <div class="form-group">
+          <label>ВВЕДИТЕ ИНН</label>
+          <input name="text" type="number" class="form-control" placeholder="123456789" data-element="inn">
+        </div>
+  
+        <button type="submit" class="auth-view-btn btn btn-default" data-element="authViewerOk">OK</button>
+        <button type="submit" class="auth-view-btn btn btn-default" data-element="authViewerCancel">CANCEL</button>
+      </form>
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+</body>
+<script type="text/javascript">
+
+  </script>
+</html>

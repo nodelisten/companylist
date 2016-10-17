@@ -1,0 +1,17 @@
+<form>
+	<input type="hidden" value="{{companyINN}}" data-element="idcompanyadd">
+  <div class="form-group">
+    <label>ИНН</label>
+    <input data-element="inncompanyadd" type="number" class="form-control" placeholder="123456789" value="{{companyINN}}">
+  </div>
+  <div class="form-group">
+    <label>Наименование</label>
+    <input data-element="namecompanyadd" type="text" class="form-control" placeholder="Название компании" >
+  </div>
+  <div class="form-group">
+    <label>Руководитель</label>
+    <input data-element="bosscompanyadd" type="text" class="form-control" placeholder="Фамилия" >
+  </div>  
+          <button data-element="addViewerCompanyOk" type="submit" class="auth-view-btn btn btn-default">OK</button>
+        <button data-element="addViewerCompanyCancel" type="submit" class="auth-view-btn btn btn-default">CANCEL</button>
+</form>

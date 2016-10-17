@@ -1,0 +1,27 @@
+
+<div class="table-responsive">
+  <table class="table table-bordered table-companies">
+    <thead> 
+      <tr class="info"> 
+        <th>ID</th> 
+        <th>ИНН</th> 
+        <th>Наименование</th> 
+        <th>Руководитель</th> 
+        <th>Действие</th> 
+
+      </tr> 
+    </thead> 
+    <tbody> 
+    {{#each companies }}
+      <tr> 
+        <th scope="row">{{{this.id}}}</th> 
+        <td>{{{this.inn}}}</td> 
+        <td>{{{this.company}}}</td> 
+        <td>{{{this.boss}}}</td> 
+        <td>{{{[../partial] ../innNumber}}}</td>
+      </tr> 
+    {{/each}}
+
+    </tbody> 
+  </table> 
+</div>

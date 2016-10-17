@@ -1,0 +1,27 @@
+.padding-top {
+	padding-top: 1em;
+}
+.js-hidden {
+  display: none;
+}
+.auth-view-btn {
+	margin-right: .5em;
+}
+.auth-form {
+	width: 300px;
+	margin: auto;
+}
+.edit-butt-cont {
+
+
+}
+.edit-butt-elem {
+	margin-right: 5px;
+
+	cursor: pointer;
+}
+.table-companies {
+}
+.btn-add {
+	margin-top: 1em;
+}
